@@ -72,7 +72,7 @@ from app.routers import paper as paper_router
 
 
 def get_version() -> str:
-    """从 VERSION 文件读取版本号"""
+    """从 VERSION test文件读取版本号"""
     try:
         version_file = Path(__file__).parent.parent / "VERSION"
         if version_file.exists():
